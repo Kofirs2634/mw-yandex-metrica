@@ -6,7 +6,7 @@
     "[https://community.fandom.com/wiki/User:Kofirs2634 Kofirs2634]"
   ],
   "descriptionmsg": "yametrica-desc",
-  "version": "1.0",
+  "version": "1.1",
   "type": "other",
   "license-name": "MIT",
   "config": {
@@ -54,6 +54,6 @@
     "suppress-yametrica"
   ],
   "requires": {
-    "MediaWiki": ">= 1.41.0"
+    "MediaWiki": ">= 1.42.0"
   }
 }

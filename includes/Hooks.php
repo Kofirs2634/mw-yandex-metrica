@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\ResourceLoader\Module as ResourceLoaderModule;
 
 class YandexMetricaHooks {
   public static function onBeforePageDisplay(OutputPage $out, Skin $sk): void {
