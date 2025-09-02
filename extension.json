@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "Yandex.Metrica",
+  "namemsg": "yametrica-extensionname",
+  "author": [
+    "[https://community.fandom.com/wiki/User:Kofirs2634 Kofirs2634]"
+  ],
+  "descriptionmsg": "yametrica-desc",
+  "version": "1.0",
+  "type": "other",
+  "license-name": "MIT",
+  "config": {
+    "YandexMetricaId": {
+      "value": "",
+      "descriptionmsg": "yametrica-config-id"
+    },
+    "YandexMetricaWatchClicks": {
+      "value": true,
+      "descriptionmsg": "yametrica-config-clicks"
+    },
+    "YandexMetricaTrackLinks": {
+      "value": true,
+      "descriptionmsg": "yametrica-config-links"
+    },
+    "YandexMetricaTrackTitles": {
+      "value": true,
+      "descriptionmsg": "yametrica-config-titles"
+    },
+    "YandexMetricaTrackBounce": {
+      "value": true,
+      "descriptionmsg": "yametrica-config-bounce"
+    },
+    "YandexMetricaTrackHashes": {
+      "value": false,
+      "descriptionmsg": "yametrica-config-hashes"
+    },
+    "YandexMetricaUseWebvisor": {
+      "value": false,
+      "descriptionmsg": "yametrica-config-webvisor"
+    }
+  },
+  "Hooks": {
+    "BeforePageDisplay": "YandexMetricaHooks::onBeforePageDisplay"
+  },
+  "AutoloadClasses": {
+    "YandexMetricaHooks": "includes/Hooks.php"
+  },
+  "MessagesDirs": {
+    "YandexMetrica": [
+      "i18n"
+    ]
+  },
+  "AvailableRights": [
+    "suppress-yametrica"
+  ],
+  "requires": {
+    "MediaWiki": ">= 1.41.0"
+  }
+}

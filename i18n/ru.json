@@ -1,0 +1,17 @@
+{
+  "@metadata": {
+    "authors": [
+      "Kofirs2634"
+    ]
+  },
+  "yametrica-extensionname": "Яндекс.Метрика",
+  "yametrica-desc": "Интеграция сервиса \"[https://metrika.yandex.ru Яндекс.Метрика]\"",
+  "yametrica-config-id": "ID счётчика",
+  "yametrica-config-clicks": "Отслеживание кликов на странице и их запись для карты кликов",
+  "yametrica-config-links": "Отслеживание переходов по внешним ссылкам",
+  "yametrica-config-webvisor": "Использование Вебвизора",
+  "yametrica-config-titles": "Запись заголовков страниц",
+  "yametrica-config-bounce": "Использование точного показателя отказов. Допускается указывать число",
+  "yametrica-config-hashes": "Отслеживание хэшей в адресной строке браузера",
+  "right-suppress-yametrica": "Сокрытие своих действий от \"[https://metrika.yandex.ru Яндекс.Метрики]\""
+}

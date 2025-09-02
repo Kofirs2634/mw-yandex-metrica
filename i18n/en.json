@@ -1,0 +1,17 @@
+{
+  "@metadata": {
+    "authors": [
+      "Kofirs2634"
+    ]
+  },
+  "yametrica-extensionname": "Yandex.Metrica",
+  "yametrica-desc": "[https://metrika.yandex.ru Yandex.Metrica] integration",
+  "yametrica-config-id": "Target counter ID",
+  "yametrica-config-clicks": "Watch for clicks on the page and collect them for a click map",
+  "yametrica-config-links": "Track clicks on outbound links",
+  "yametrica-config-webvisor": "Use Session Replay (aka Webvisor)",
+  "yametrica-config-titles": "Watch and collect titles of the pages",
+  "yametrica-config-bounce": "Use Accurate bounce rate. Numbers are also accepted",
+  "yametrica-config-hashes": "Hash tracking in the browser's address bar",
+  "right-suppress-yametrica": "Hide own actions from [https://metrika.yandex.ru Yandex.Metrica]"
+}
